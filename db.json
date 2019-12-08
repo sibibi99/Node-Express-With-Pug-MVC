@@ -3,17 +3,9 @@
     {
       "name": "Boss",
       "phone": "02222",
-      "id": "PKX_A-6x"
-    },
-    {
-      "name": "admin",
-      "phone": "123123",
-      "id": "zefH-0ow"
-    },
-    {
-      "name": "SĨ Nguyễn Sang",
-      "phone": "0978915515",
-      "id": "1sey8n6r"
+      "id": "PKX_A-6x",
+      "email": "sibibi@gmail.com",
+      "password": "12345"
     }
   ]
 }

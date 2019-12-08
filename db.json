@@ -1,48 +1,19 @@
 {
   "users": [
     {
-      "name": "Tuan",
-      "id": "t3oz9dcQ"
+      "name": "Boss",
+      "phone": "02222",
+      "id": "PKX_A-6x"
+    },
+    {
+      "name": "admin",
+      "phone": "123123",
+      "id": "zefH-0ow"
     },
     {
       "name": "SĨ Nguyễn Sang",
-      "id": "NEtpwamO"
-    },
-    {
-      "name": "Mạnh",
-      "id": "3C7Xbv9X"
-    },
-    {
-      "name": "Hùng",
-      "id": "thb2kKnZ"
-    },
-    {
-      "name": "IN LÊ MINH",
-      "id": "mbAt2PdA"
-    },
-    {
-      "name": "Tinh",
-      "id": "8WwcxnpS"
-    },
-    {
-      "name": "Chưa xác định",
-      "id": "YRlgMhYj"
-    },
-    {
-      "name": "0314088414",
-      "id": "aLk8yBxx"
-    },
-    {
-      "name": "Hanh",
-      "id": "IKFxy_l-"
-    },
-    {
-      "name": "kinh",
-      "id": "5FeDxGL5"
-    },
-    {
-      "name": "quynh",
-      "id": "khLtbYm7"
+      "phone": "0978915515",
+      "id": "1sey8n6r"
     }
   ]
 }

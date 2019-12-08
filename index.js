@@ -12,6 +12,9 @@ app.set('views', './views');
 // Cấu hình Body parser
 app.use(bodyParser.json()) // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
+// Static file
+app.use(express.static('public'));
+// app.use('/public', express.static('public'))
 
 app.get('/', function(req, res) {
   res.render('index', {

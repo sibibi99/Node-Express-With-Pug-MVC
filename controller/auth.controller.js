@@ -1,3 +1,4 @@
+var md5 = require('md5');
 var db = require('../db');
 
 module.exports.login = function(req, res) {
@@ -20,8 +21,8 @@ module.exports.postLogin = function(req, res) {
     });
     return;
   }
-
-  if (user.password !== password) {
+  var hashedPassword = md5(password);
+  if (user.password !== hashedPassword) {
     res.render('auth/login', {
       errors: [
         'Wrong password.'
@@ -31,6 +32,9 @@ module.exports.postLogin = function(req, res) {
     return;
   }
   // Tạo cookie cho phiên đăng nhập
-  res.cookie('userId', user.id)
+  res.cookie('userId', user.id, {
+    // Khi dùng signIn Cookie ta thêm option ở cuối để tạo signIn cookie
+    signed: true
+  })
   res.redirect('/users');
 };

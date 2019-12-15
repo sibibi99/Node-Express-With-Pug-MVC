@@ -33,7 +33,7 @@ module.exports.id = function(req,res) {
 module.exports.post_create = function(req, res){
   req.body.id = shortid.generate();
   // Đã rút code validate tại đây
-  console.log(res.locals);
+  // console.log(res.locals);
   
   db.get('users').push(req.body).write();
   res.redirect('/users')
